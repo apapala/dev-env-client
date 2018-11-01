@@ -1,0 +1,5 @@
+.idea
+vendor
+
+# Database files created by mysql container
+/docker/var
