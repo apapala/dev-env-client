@@ -1,7 +1,5 @@
 <?php
 
-require __DIR__ . '/../vendor/autoload.php';
-
 class EnvironmentTest extends \PHPUnit\Framework\TestCase {
 
     public function testMailFunctionReturnsTrue()
