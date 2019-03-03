@@ -27,12 +27,10 @@ services:
 
     projectname_mysql:
         container_name: projectname_mysql
-        image: mysql
+        image: mysql:5.7.25
         hostname: projectname_mysql
         environment:
             - MYSQL_ROOT_PASSWORD=root
-            - MYSQL_USER=root
-            - MYSQL_PASSWORD=root
             - MYSQL_DATABASE=projectname_01
         volumes:
             # - ./docker/database:/docker-entrypoint-initdb.d # docker output for running mysqls
